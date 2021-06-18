@@ -1,0 +1,12 @@
+h1,
+h3 {
+  color: blue;
+  text-align: center;
+}
+
+.Movie-summary_Poster img {
+  width: 8em;
+  height: 11em;
+  display: grid;
+  justify-content: space-around;
+}

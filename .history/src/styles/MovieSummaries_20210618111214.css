@@ -1,0 +1,13 @@
+.MovieSummaries_container,
+button {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  grid-auto-rows: 12rem;
+  text-align: center;
+}
+
+@media (max-width: 320px) {
+  .MovieSummaries_container {
+    display: inline;
+  }
+}

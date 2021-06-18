@@ -1,0 +1,14 @@
+.MovieSummaries_container {
+  display: grid;
+  grid-template-columns: repeat(3, 5fr);
+  grid-auto-rows: 12rem;
+  text-align: center;
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+@media (max-width: 320px) {
+  .MovieSummaries_container {
+    display: inline;
+  }
+}

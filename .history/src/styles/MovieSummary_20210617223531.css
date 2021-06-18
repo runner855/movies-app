@@ -1,0 +1,12 @@
+h1,
+h3 {
+  color: blue;
+  text-align: center;
+}
+
+img {
+  width: 8em;
+  height: 11em;
+  display: flex;
+  justify-content: space-around;
+}

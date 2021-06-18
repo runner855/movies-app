@@ -1,0 +1,33 @@
+.MovieSummaries_container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+@media (max-width: 320px) {
+  .MovieSummaries_container {
+    display: inline;
+  }
+}
+
+/* first and second list-item are 50% wide */
+.Movie-summary_Poster:nth-child(1),
+.Movie-summary_Poster:nth-child(2) {
+  width: 50%;
+}
+
+/* change alignment of inner pictures */
+.Movie-summary_Poster:nth-child(1) {
+  text-align: right;
+}
+.Movie-summary_Poster:nth-child(2) {
+  text-align: left;
+}
+
+/* just a bit of responsiveness */
+.Movie-summary_Poster img {
+  max-width: 100%;
+}
+.Movie-summary_Poster:nth-child(n + 3) {
+  max-width: 30%;
+}

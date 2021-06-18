@@ -1,0 +1,16 @@
+.MovieSummaries_container {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  grid-auto-rows: 200px;
+}
+
+.MovieSummaries_container {
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+@media (max-width: 320px) {
+  .MovieSummaries_container {
+    display: inline;
+  }
+}

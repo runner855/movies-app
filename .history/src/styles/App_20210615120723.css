@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.Movies-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+}
+
+.app-logo {
+  width: 10%;
+  height: auto;
+  display: flex;
+  padding-left: 1em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  background: #000;
+}
+
+h1 {
+  color: red;
+  position: fixed;
+  top: 0;
+  text-align: center;
+}

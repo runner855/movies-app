@@ -1,0 +1,11 @@
+.MovieSummaries_container {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  grid-auto-rows: 200px;
+}
+
+@media (max-width: 320px) {
+  .MovieSummaries_container {
+    display: inline;
+  }
+}

@@ -1,0 +1,29 @@
+.img-logo {
+  width: 10%;
+  height: auto;
+  display: flex;
+  padding-left: 1em;
+}
+
+.img-logo h1 {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  background: #000;
+}
+
+h1 {
+  color: red;
+  position: relative;
+  top: 0;
+  padding-top: 0;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,35 @@
+h1,
+h3 {
+  color: blue;
+  text-align: center;
+}
+
+img {
+  width: 8em;
+  height: 11em;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.Movie-summary_Poster {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+  border: 1px solid white;
+  overflow: auto;
+  max-height: 500px;
+}
+
+.Movie-summary_Poster {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: white;
+
+  font-size: 10px;
+}

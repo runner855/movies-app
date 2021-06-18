@@ -1,0 +1,23 @@
+h1,
+h3 {
+  color: red;
+  text-align: center;
+}
+
+img {
+  width: 8em;
+  height: 11em;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.Movie-summary_title,
+.Movie-summary_year {
+  color: red;
+  font-size: 0.5em;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: white;
+}

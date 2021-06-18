@@ -1,0 +1,55 @@
+h1,
+h3 {
+  color: blue;
+  text-align: center;
+}
+
+img {
+  width: 8em;
+  height: 11em;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.Movie-summary_Poster {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+  border: 1px solid white;
+  overflow: auto;
+  max-height: 500px;
+}
+
+.Movie-summary_Poster {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+/* first and second list-item are 50% wide */
+.Movie-summary_Poster:nth-child(1),
+li:nth-child(2) {
+  width: 50%;
+}
+
+/* change alignment of inner pictures */
+.Movie-summary_Poster:nth-child(1) {
+  text-align: right;
+}
+.Movie-summary_Poster:nth-child(2) {
+  text-align: left;
+}
+
+/* just a bit of responsiveness */
+.Movie-summary_Poster img {
+  max-width: 100%;
+}
+.Movie-summary_Poster:nth-child(n + 3) {
+  max-width: 30%;
+}

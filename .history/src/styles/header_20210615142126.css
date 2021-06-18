@@ -1,0 +1,15 @@
+.app-logo {
+  width: 10%;
+  height: auto;
+  display: flex;
+  padding-left: 1em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  background: #000;
+}

@@ -1,0 +1,12 @@
+h1,
+h3 {
+  color: blue;
+  text-align: center;
+}
+
+img {
+  width: 6em;
+  height: 7em;
+  display: grid;
+  justify-content: space-around;
+}

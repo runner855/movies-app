@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.Movies-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+}
+
+.app-logo {
+  width: 10%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

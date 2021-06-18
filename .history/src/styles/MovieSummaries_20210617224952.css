@@ -1,0 +1,10 @@
+.MovieSummaries_container {
+  display: table;
+  margin: 0 auto;
+}
+
+@media (max-width: 320px) {
+  .MovieSummaries_container {
+    display: block;
+  }
+}
