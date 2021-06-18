@@ -10,15 +10,15 @@ const Search = () => {
     setMovieSearch({ search: keyword });
   };
 
-  const movies = data.filter((data) => ());
-    if (movieSearch.search == null) 
-      return data;
-     else if (
+  const movies = data.filter((data) => {
+    if (movieSearch.search == null) {
+      return data.Title;
+    } else if (
       data.Title.toLowerCase().includes(movieSearch.search.toLowerCase())
     ) {
-      return data;
+      return data.Title;
     }
-  };
+  });
 
   return (
     <>

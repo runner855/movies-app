@@ -9,13 +9,14 @@ img {
   height: 11em;
   display: inline-flex;
   /* justify-content: space-around; */
-  margin-bottom: 30em;
+  margin-bottom: 13em;
   opacity: 90%;
 }
 
 .Movie-summary_title {
   color: red;
   font-size: 0.7em;
+  padding-bottom: 1em;
   margin-top: 8em;
   font-weight: bold;
 }

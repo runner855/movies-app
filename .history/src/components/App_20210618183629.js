@@ -10,6 +10,7 @@ const App = ({ data }) => {
       <Header />
       <Search />
       <MovieSummaries data={data} />
+      ))}
     </div>
   );
 };

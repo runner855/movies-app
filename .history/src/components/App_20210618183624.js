@@ -9,7 +9,9 @@ const App = ({ data }) => {
     <div className="Movie">
       <Header />
       <Search />
-      <MovieSummaries data={data} />
+      {data.map((item) => (
+        <MovieSummaries data={data} />
+      ))}
     </div>
   );
 };

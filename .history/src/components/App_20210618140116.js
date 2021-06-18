@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/App.css";
 import Header from "../components/header";
 import Search from "../components/Search";

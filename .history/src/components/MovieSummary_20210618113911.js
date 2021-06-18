@@ -8,7 +8,7 @@ const MovieSummary = (props) => {
   return (
     <div className="Movie-summary">
       <div className="Movie-summary_title">{Title}</div>
-      {/* <div className="Movie-summary_year">{Year}</div> */}
+      <div className="Movie-summary_year">{Year}</div>
 
       <Link type="button" onClick={() => console.log("Hello!")}>
         <img className="Movie-summary_Poster" src={Poster} alt="img-poster" />

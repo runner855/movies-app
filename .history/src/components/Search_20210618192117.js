@@ -3,22 +3,22 @@ import data from "../data/data.json";
 import "../styles/Search.css";
 
 const Search = () => {
-  const [movieSearch, setMovieSearch] = useState({ search: null });
+  const [movieSearch, setMovieSearch] = useState();
 
   const handleSearch = (event) => {
     let keyword = event.target.value;
     setMovieSearch({ search: keyword });
   };
 
-  const movies = data.filter((data) => ());
-    if (movieSearch.search == null) 
+  const movies = data.filter((data) => {
+    if (movieSearch == null) {
       return data;
-     else if (
+    } else if (
       data.Title.toLowerCase().includes(movieSearch.search.toLowerCase())
     ) {
       return data;
     }
-  };
+  });
 
   return (
     <>
@@ -27,7 +27,7 @@ const Search = () => {
           placeholder="search your movie"
           className="search-input"
           type="text"
-          onChange={(e) => handleSearch(e)}
+          onChange={(e) => handleSearch(e.target.value)}
         />
         {movies}
         <button className="search-btn" type="submit">
